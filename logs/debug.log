@@ -1,0 +1,1430 @@
+2023-09-10 13:21:26 notice: Undefined property: OfficesController::$Users in D:\xampp\htdocs\edstock\src\Controller\OfficesController.php on line 21
+Request URL: /offices
+Referer URL: http://localhost/edstock/
+Trace:
+Cake\Controller\Controller::__get() D:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\Controller.php, line 337
+App\Controller\OfficesController::index() D:\xampp\htdocs\edstock\src\Controller\OfficesController.php, line 21
+Cake\Controller\Controller::invokeAction() D:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\Controller.php, line 547
+Cake\Controller\ControllerFactory::handle() D:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory::invoke() D:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() D:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 320
+Cake\Http\Runner::handle() D:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 77
+Cake\Http\Middleware\BodyParserMiddleware::process() D:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() D:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() D:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() D:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() D:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() D:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() D:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() D:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() D:\xampp\htdocs\edstock\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() D:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Http\Runner::run() D:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 58
+Cake\Http\Server::run() D:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Server.php, line 90
+[main] D:\xampp\htdocs\edstock\webroot\index.php, line 40
+
+2023-09-10 13:21:27 notice: Undefined property: OfficesController::$Users in D:\xampp\htdocs\edstock\src\Controller\OfficesController.php on line 21
+Request URL: /offices
+Trace:
+Cake\Controller\Controller::__get() D:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\Controller.php, line 337
+App\Controller\OfficesController::index() D:\xampp\htdocs\edstock\src\Controller\OfficesController.php, line 21
+Cake\Controller\Controller::invokeAction() D:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\Controller.php, line 547
+Cake\Controller\ControllerFactory::handle() D:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory::invoke() D:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() D:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 320
+Cake\Http\Runner::handle() D:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 77
+Cake\Http\Middleware\BodyParserMiddleware::process() D:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() D:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() D:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() D:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() D:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() D:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() D:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() D:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() D:\xampp\htdocs\edstock\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() D:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Http\Runner::run() D:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 58
+Cake\Http\Server::run() D:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Server.php, line 90
+[main] D:\xampp\htdocs\edstock\webroot\index.php, line 40
+
+2023-10-10 01:35:54 notice: Undefined property: FundClustersController::$FundClusters in C:\xampp\htdocs\edstock\src\Controller\FundClustersController.php on line 21
+Request URL: /fundclusters
+Trace:
+Cake\Controller\Controller::__get() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\Controller.php, line 329
+App\Controller\FundClustersController::index() C:\xampp\htdocs\edstock\src\Controller\FundClustersController.php, line 21
+Cake\Controller\Controller::invokeAction() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\Controller.php, line 547
+Cake\Controller\ControllerFactory::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory::invoke() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 320
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 77
+Cake\Http\Middleware\BodyParserMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Http\Runner::run() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 58
+Cake\Http\Server::run() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Server.php, line 90
+[main] C:\xampp\htdocs\edstock\webroot\index.php, line 40
+
+2023-10-10 01:36:54 notice: Undefined property: FundClustersController::$FundClusters in C:\xampp\htdocs\edstock\src\Controller\FundClustersController.php on line 21
+Request URL: /fundclusters
+Trace:
+Cake\Controller\Controller::__get() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\Controller.php, line 329
+App\Controller\FundClustersController::index() C:\xampp\htdocs\edstock\src\Controller\FundClustersController.php, line 21
+Cake\Controller\Controller::invokeAction() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\Controller.php, line 547
+Cake\Controller\ControllerFactory::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory::invoke() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 320
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 77
+Cake\Http\Middleware\BodyParserMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Http\Runner::run() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 58
+Cake\Http\Server::run() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Server.php, line 90
+[main] C:\xampp\htdocs\edstock\webroot\index.php, line 40
+
+2023-10-10 01:38:00 notice: Undefined property: FundClustersController::$Fund_Clusters in C:\xampp\htdocs\edstock\src\Controller\FundClustersController.php on line 21
+Request URL: /fundclusters
+Trace:
+Cake\Controller\Controller::__get() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\Controller.php, line 329
+App\Controller\FundClustersController::index() C:\xampp\htdocs\edstock\src\Controller\FundClustersController.php, line 21
+Cake\Controller\Controller::invokeAction() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\Controller.php, line 547
+Cake\Controller\ControllerFactory::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory::invoke() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 320
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 77
+Cake\Http\Middleware\BodyParserMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Http\Runner::run() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 58
+Cake\Http\Server::run() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Server.php, line 90
+[main] C:\xampp\htdocs\edstock\webroot\index.php, line 40
+
+2023-10-10 01:39:18 notice: Undefined property: FundClustersController::$FundClusters in C:\xampp\htdocs\edstock\src\Controller\FundClustersController.php on line 21
+Request URL: /fundclusters
+Trace:
+Cake\Controller\Controller::__get() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\Controller.php, line 329
+App\Controller\FundClustersController::index() C:\xampp\htdocs\edstock\src\Controller\FundClustersController.php, line 21
+Cake\Controller\Controller::invokeAction() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\Controller.php, line 547
+Cake\Controller\ControllerFactory::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory::invoke() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 320
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 77
+Cake\Http\Middleware\BodyParserMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Http\Runner::run() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 58
+Cake\Http\Server::run() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Server.php, line 90
+[main] C:\xampp\htdocs\edstock\webroot\index.php, line 40
+
+2023-10-10 01:39:55 notice: Undefined property: FundClustersController::$Fund_Clusters in C:\xampp\htdocs\edstock\src\Controller\FundClustersController.php on line 21
+Request URL: /fundclusters
+Trace:
+Cake\Controller\Controller::__get() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\Controller.php, line 329
+App\Controller\FundClustersController::index() C:\xampp\htdocs\edstock\src\Controller\FundClustersController.php, line 21
+Cake\Controller\Controller::invokeAction() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\Controller.php, line 547
+Cake\Controller\ControllerFactory::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory::invoke() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 320
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 77
+Cake\Http\Middleware\BodyParserMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Http\Runner::run() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 58
+Cake\Http\Server::run() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Server.php, line 90
+[main] C:\xampp\htdocs\edstock\webroot\index.php, line 40
+
+2023-10-10 01:40:25 notice: Undefined property: FundClustersController::$Fund_Clusters in C:\xampp\htdocs\edstock\src\Controller\FundClustersController.php on line 21
+Request URL: /fundclusters
+Trace:
+Cake\Controller\Controller::__get() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\Controller.php, line 329
+App\Controller\FundClustersController::index() C:\xampp\htdocs\edstock\src\Controller\FundClustersController.php, line 21
+Cake\Controller\Controller::invokeAction() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\Controller.php, line 547
+Cake\Controller\ControllerFactory::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory::invoke() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 320
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 77
+Cake\Http\Middleware\BodyParserMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Http\Runner::run() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 58
+Cake\Http\Server::run() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Server.php, line 90
+[main] C:\xampp\htdocs\edstock\webroot\index.php, line 40
+
+2023-10-10 19:21:27 notice: Undefined property: FundClustersController::$Fund_Clusters in C:\xampp\htdocs\edstock\src\Controller\FundClustersController.php on line 21
+Request URL: /fundclusters
+Trace:
+Cake\Controller\Controller::__get() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\Controller.php, line 329
+App\Controller\FundClustersController::index() C:\xampp\htdocs\edstock\src\Controller\FundClustersController.php, line 21
+Cake\Controller\Controller::invokeAction() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\Controller.php, line 547
+Cake\Controller\ControllerFactory::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory::invoke() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 320
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 77
+Cake\Http\Middleware\BodyParserMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Http\Runner::run() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 58
+Cake\Http\Server::run() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Server.php, line 90
+[main] C:\xampp\htdocs\edstock\webroot\index.php, line 40
+
+2023-10-15 13:37:02 notice: Creation of dynamic property PDOException::$queryString is deprecated
+Request URL: /purchaserequests
+Referer URL: http://192.168.2.24/edstock/divprofiles
+Client IP: 192.168.2.2
+Trace:
+Cake\Database\Log\LoggingStatement::execute() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php, line 79
+Cake\Database\Connection::Cake\Database\{closure}() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Database\Connection.php, line 359
+Cake\Core\Retry\CommandRetry::run() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php, line 70
+Cake\Database\Connection::run() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Database\Connection.php, line 356
+Cake\Database\Query::execute() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Database\Query.php, line 250
+Cake\ORM\Query::_execute() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\ORM\Query.php, line 1148
+Cake\ORM\Query::_all() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php, line 288
+Cake\ORM\Query::all() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\ORM\Query.php, line 1096
+Cake\Datasource\Paging\NumericPaginator::paginate() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Datasource\Paging\NumericPaginator.php, line 183
+Cake\Controller\Controller::paginate() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\Controller.php, line 957
+App\Controller\PurchaserequestsController::index() C:\xampp\htdocs\edstock\src\Controller\PurchaserequestsController.php, line 24
+Cake\Controller\Controller::invokeAction() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\Controller.php, line 547
+Cake\Controller\ControllerFactory::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory::invoke() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 320
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 77
+Cake\Http\Middleware\BodyParserMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Http\Runner::run() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 58
+Cake\Http\Server::run() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Server.php, line 90
+[main] C:\xampp\htdocs\edstock\webroot\index.php, line 40
+
+2023-10-15 13:37:03 notice: Creation of dynamic property PDOException::$queryString is deprecated
+Request URL: /purchaserequests
+Client IP: 192.168.2.2
+Trace:
+Cake\Database\Log\LoggingStatement::execute() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php, line 79
+Cake\Database\Connection::Cake\Database\{closure}() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Database\Connection.php, line 359
+Cake\Core\Retry\CommandRetry::run() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php, line 70
+Cake\Database\Connection::run() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Database\Connection.php, line 356
+Cake\Database\Query::execute() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Database\Query.php, line 250
+Cake\ORM\Query::_execute() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\ORM\Query.php, line 1148
+Cake\ORM\Query::_all() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php, line 288
+Cake\ORM\Query::all() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\ORM\Query.php, line 1096
+Cake\Datasource\Paging\NumericPaginator::paginate() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Datasource\Paging\NumericPaginator.php, line 183
+Cake\Controller\Controller::paginate() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\Controller.php, line 957
+App\Controller\PurchaserequestsController::index() C:\xampp\htdocs\edstock\src\Controller\PurchaserequestsController.php, line 24
+Cake\Controller\Controller::invokeAction() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\Controller.php, line 547
+Cake\Controller\ControllerFactory::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory::invoke() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 320
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 77
+Cake\Http\Middleware\BodyParserMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Http\Runner::run() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 58
+Cake\Http\Server::run() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Server.php, line 90
+[main] C:\xampp\htdocs\edstock\webroot\index.php, line 40
+
+2023-10-15 13:44:57 notice: Creation of dynamic property PDOException::$queryString is deprecated
+Request URL: /Inventories/getInventories?_=1697348693518
+Referer URL: http://192.168.2.24/edstock/inventories
+Client IP: 192.168.2.2
+Trace:
+Cake\Database\Log\LoggingStatement::execute() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php, line 79
+Cake\Database\Connection::Cake\Database\{closure}() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Database\Connection.php, line 359
+Cake\Core\Retry\CommandRetry::run() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php, line 70
+Cake\Database\Connection::run() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Database\Connection.php, line 356
+Cake\Database\Query::execute() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Database\Query.php, line 250
+Cake\ORM\Query::_execute() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\ORM\Query.php, line 1148
+Cake\ORM\Query::_all() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php, line 288
+Cake\ORM\Query::all() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\ORM\Query.php, line 1096
+Cake\ORM\Query::toArray() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php, line 305
+App\Controller\InventoriesController::getInventories() C:\xampp\htdocs\edstock\src\Controller\InventoriesController.php, line 32
+Cake\Controller\Controller::invokeAction() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\Controller.php, line 547
+Cake\Controller\ControllerFactory::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory::invoke() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 320
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 77
+Cake\Http\Middleware\BodyParserMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Http\Runner::run() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 58
+Cake\Http\Server::run() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Server.php, line 90
+[main] C:\xampp\htdocs\edstock\webroot\index.php, line 40
+
+2023-10-15 13:57:57 notice: Creation of dynamic property PDOException::$queryString is deprecated
+Request URL: /Inventories/getInventories?_=1697349473871
+Referer URL: http://192.168.2.24/edstock/inventories
+Client IP: 192.168.2.2
+Trace:
+Cake\Database\Log\LoggingStatement::execute() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php, line 79
+Cake\Database\Connection::Cake\Database\{closure}() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Database\Connection.php, line 359
+Cake\Core\Retry\CommandRetry::run() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php, line 70
+Cake\Database\Connection::run() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Database\Connection.php, line 356
+Cake\Database\Query::execute() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Database\Query.php, line 250
+Cake\ORM\Query::_execute() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\ORM\Query.php, line 1148
+Cake\ORM\Query::_all() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php, line 288
+Cake\ORM\Query::all() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\ORM\Query.php, line 1096
+Cake\ORM\Query::toArray() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php, line 305
+App\Controller\InventoriesController::getInventories() C:\xampp\htdocs\edstock\src\Controller\InventoriesController.php, line 32
+Cake\Controller\Controller::invokeAction() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\Controller.php, line 547
+Cake\Controller\ControllerFactory::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory::invoke() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 320
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 77
+Cake\Http\Middleware\BodyParserMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Http\Runner::run() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 58
+Cake\Http\Server::run() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Server.php, line 90
+[main] C:\xampp\htdocs\edstock\webroot\index.php, line 40
+
+2023-10-15 15:11:23 notice: Creation of dynamic property PDOException::$queryString is deprecated
+Request URL: /Inventories/getInventories?_=1697353877864
+Referer URL: http://192.168.0.161/edstock/inventories
+Client IP: 192.168.0.143
+Trace:
+Cake\Database\Log\LoggingStatement::execute() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php, line 79
+Cake\Database\Connection::Cake\Database\{closure}() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Database\Connection.php, line 359
+Cake\Core\Retry\CommandRetry::run() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php, line 70
+Cake\Database\Connection::run() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Database\Connection.php, line 356
+Cake\Database\Query::execute() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Database\Query.php, line 250
+Cake\ORM\Query::_execute() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\ORM\Query.php, line 1148
+Cake\ORM\Query::_all() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php, line 288
+Cake\ORM\Query::all() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\ORM\Query.php, line 1096
+Cake\ORM\Query::toArray() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php, line 305
+App\Controller\InventoriesController::getInventories() C:\xampp\htdocs\edstock\src\Controller\InventoriesController.php, line 32
+Cake\Controller\Controller::invokeAction() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\Controller.php, line 547
+Cake\Controller\ControllerFactory::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory::invoke() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 320
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 77
+Cake\Http\Middleware\BodyParserMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Http\Runner::run() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 58
+Cake\Http\Server::run() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Server.php, line 90
+[main] C:\xampp\htdocs\edstock\webroot\index.php, line 40
+
+2023-10-15 15:17:09 notice: Creation of dynamic property PDOException::$queryString is deprecated
+Request URL: /Inventories/getInventories?_=1697354223771
+Referer URL: http://192.168.0.161/edstock/inventories
+Client IP: 192.168.0.143
+Trace:
+Cake\Database\Log\LoggingStatement::execute() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php, line 79
+Cake\Database\Connection::Cake\Database\{closure}() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Database\Connection.php, line 359
+Cake\Core\Retry\CommandRetry::run() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php, line 70
+Cake\Database\Connection::run() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Database\Connection.php, line 356
+Cake\Database\Query::execute() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Database\Query.php, line 250
+Cake\ORM\Query::_execute() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\ORM\Query.php, line 1148
+Cake\ORM\Query::_all() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php, line 288
+Cake\ORM\Query::all() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\ORM\Query.php, line 1096
+Cake\ORM\Query::toArray() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php, line 305
+App\Controller\InventoriesController::getInventories() C:\xampp\htdocs\edstock\src\Controller\InventoriesController.php, line 32
+Cake\Controller\Controller::invokeAction() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\Controller.php, line 547
+Cake\Controller\ControllerFactory::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory::invoke() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 320
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 77
+Cake\Http\Middleware\BodyParserMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Http\Runner::run() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 58
+Cake\Http\Server::run() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Server.php, line 90
+[main] C:\xampp\htdocs\edstock\webroot\index.php, line 40
+
+2023-10-15 16:57:34 notice: Creation of dynamic property PDOException::$queryString is deprecated
+Request URL: /Inventories/getInventories?_=1697360253914
+Referer URL: http://localhost/edstock/inventories
+Trace:
+Cake\Database\Log\LoggingStatement::execute() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php, line 79
+Cake\Database\Connection::Cake\Database\{closure}() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Database\Connection.php, line 359
+Cake\Core\Retry\CommandRetry::run() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php, line 70
+Cake\Database\Connection::run() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Database\Connection.php, line 356
+Cake\Database\Query::execute() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Database\Query.php, line 250
+Cake\ORM\Query::_execute() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\ORM\Query.php, line 1148
+Cake\ORM\Query::_all() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php, line 288
+Cake\ORM\Query::all() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\ORM\Query.php, line 1096
+Cake\ORM\Query::toArray() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php, line 305
+App\Controller\InventoriesController::getInventories() C:\xampp\htdocs\edstock\src\Controller\InventoriesController.php, line 32
+Cake\Controller\Controller::invokeAction() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\Controller.php, line 547
+Cake\Controller\ControllerFactory::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory::invoke() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 320
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 77
+Cake\Http\Middleware\BodyParserMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Http\Runner::run() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 58
+Cake\Http\Server::run() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Server.php, line 90
+[main] C:\xampp\htdocs\edstock\webroot\index.php, line 40
+
+2023-10-15 17:15:22 notice: Creation of dynamic property PDOException::$queryString is deprecated
+Request URL: /Inventories/getInventories?_=1697361321544
+Referer URL: http://localhost/edstock/inventories
+Trace:
+Cake\Database\Log\LoggingStatement::execute() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php, line 79
+Cake\Database\Connection::Cake\Database\{closure}() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Database\Connection.php, line 359
+Cake\Core\Retry\CommandRetry::run() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php, line 70
+Cake\Database\Connection::run() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Database\Connection.php, line 356
+Cake\Database\Query::execute() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Database\Query.php, line 250
+Cake\ORM\Query::_execute() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\ORM\Query.php, line 1148
+Cake\ORM\Query::_all() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php, line 288
+Cake\ORM\Query::all() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\ORM\Query.php, line 1096
+Cake\ORM\Query::toArray() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php, line 305
+App\Controller\InventoriesController::getInventories() C:\xampp\htdocs\edstock\src\Controller\InventoriesController.php, line 32
+Cake\Controller\Controller::invokeAction() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\Controller.php, line 547
+Cake\Controller\ControllerFactory::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory::invoke() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 320
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 77
+Cake\Http\Middleware\BodyParserMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Http\Runner::run() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 58
+Cake\Http\Server::run() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Server.php, line 90
+[main] C:\xampp\htdocs\edstock\webroot\index.php, line 40
+
+2023-10-15 17:16:26 notice: Creation of dynamic property PDOException::$queryString is deprecated
+Request URL: /Inventories/getInventories?_=1697361386250
+Referer URL: http://localhost/edstock/inventories
+Trace:
+Cake\Database\Log\LoggingStatement::execute() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php, line 79
+Cake\Database\Connection::Cake\Database\{closure}() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Database\Connection.php, line 359
+Cake\Core\Retry\CommandRetry::run() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php, line 70
+Cake\Database\Connection::run() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Database\Connection.php, line 356
+Cake\Database\Query::execute() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Database\Query.php, line 250
+Cake\ORM\Query::_execute() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\ORM\Query.php, line 1148
+Cake\ORM\Query::_all() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php, line 288
+Cake\ORM\Query::all() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\ORM\Query.php, line 1096
+Cake\ORM\Query::toArray() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php, line 305
+App\Controller\InventoriesController::getInventories() C:\xampp\htdocs\edstock\src\Controller\InventoriesController.php, line 32
+Cake\Controller\Controller::invokeAction() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\Controller.php, line 547
+Cake\Controller\ControllerFactory::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory::invoke() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 320
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 77
+Cake\Http\Middleware\BodyParserMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Http\Runner::run() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 58
+Cake\Http\Server::run() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Server.php, line 90
+[main] C:\xampp\htdocs\edstock\webroot\index.php, line 40
+
+2023-10-21 14:51:25 notice: Undefined property: UnitsController::$Unit in C:\xampp\htdocs\edstock\src\Controller\UnitsController.php on line 78
+Request URL: /Units/edit/2
+Referer URL: http://localhost/edstock/units
+Trace:
+Cake\Controller\Controller::__get() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\Controller.php, line 329
+App\Controller\UnitsController::edit() C:\xampp\htdocs\edstock\src\Controller\UnitsController.php, line 78
+Cake\Controller\Controller::invokeAction() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\Controller.php, line 547
+Cake\Controller\ControllerFactory::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory::invoke() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 320
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 77
+Cake\Http\Middleware\BodyParserMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Http\Runner::run() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 58
+Cake\Http\Server::run() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Server.php, line 90
+[main] C:\xampp\htdocs\edstock\webroot\index.php, line 40
+
+2023-10-21 14:51:25 notice: Undefined property: UnitsController::$Unit in C:\xampp\htdocs\edstock\src\Controller\UnitsController.php on line 78
+Request URL: /Units/edit/2
+Referer URL: http://localhost/edstock/units
+Trace:
+Cake\Controller\Controller::__get() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\Controller.php, line 329
+App\Controller\UnitsController::edit() C:\xampp\htdocs\edstock\src\Controller\UnitsController.php, line 78
+Cake\Controller\Controller::invokeAction() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\Controller.php, line 547
+Cake\Controller\ControllerFactory::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory::invoke() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 320
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 77
+Cake\Http\Middleware\BodyParserMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Http\Runner::run() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 58
+Cake\Http\Server::run() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Server.php, line 90
+[main] C:\xampp\htdocs\edstock\webroot\index.php, line 40
+
+2023-10-21 14:54:30 notice: Undefined property: UnitsController::$Unit in C:\xampp\htdocs\edstock\src\Controller\UnitsController.php on line 78
+Request URL: /Units/edit/2
+Referer URL: http://localhost/edstock/units
+Trace:
+Cake\Controller\Controller::__get() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\Controller.php, line 329
+App\Controller\UnitsController::edit() C:\xampp\htdocs\edstock\src\Controller\UnitsController.php, line 78
+Cake\Controller\Controller::invokeAction() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\Controller.php, line 547
+Cake\Controller\ControllerFactory::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory::invoke() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 320
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 77
+Cake\Http\Middleware\BodyParserMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Http\Runner::run() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 58
+Cake\Http\Server::run() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Server.php, line 90
+[main] C:\xampp\htdocs\edstock\webroot\index.php, line 40
+
+2023-10-21 14:54:31 notice: Undefined property: UnitsController::$Unit in C:\xampp\htdocs\edstock\src\Controller\UnitsController.php on line 78
+Request URL: /Units/edit/2
+Referer URL: http://localhost/edstock/units
+Trace:
+Cake\Controller\Controller::__get() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\Controller.php, line 329
+App\Controller\UnitsController::edit() C:\xampp\htdocs\edstock\src\Controller\UnitsController.php, line 78
+Cake\Controller\Controller::invokeAction() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\Controller.php, line 547
+Cake\Controller\ControllerFactory::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory::invoke() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 320
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 77
+Cake\Http\Middleware\BodyParserMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Http\Runner::run() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 58
+Cake\Http\Server::run() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Server.php, line 90
+[main] C:\xampp\htdocs\edstock\webroot\index.php, line 40
+
+2023-10-21 14:54:48 notice: Undefined property: UnitsController::$Unit in C:\xampp\htdocs\edstock\src\Controller\UnitsController.php on line 78
+Request URL: /Units/edit/2
+Referer URL: http://localhost/edstock/units
+Trace:
+Cake\Controller\Controller::__get() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\Controller.php, line 329
+App\Controller\UnitsController::edit() C:\xampp\htdocs\edstock\src\Controller\UnitsController.php, line 78
+Cake\Controller\Controller::invokeAction() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\Controller.php, line 547
+Cake\Controller\ControllerFactory::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory::invoke() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 320
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 77
+Cake\Http\Middleware\BodyParserMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Http\Runner::run() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 58
+Cake\Http\Server::run() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Server.php, line 90
+[main] C:\xampp\htdocs\edstock\webroot\index.php, line 40
+
+2023-10-21 14:55:38 notice: Undefined property: UnitsController::$Unit in C:\xampp\htdocs\edstock\src\Controller\UnitsController.php on line 78
+Request URL: /Units/edit/2
+Referer URL: http://localhost/edstock/units
+Trace:
+Cake\Controller\Controller::__get() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\Controller.php, line 329
+App\Controller\UnitsController::edit() C:\xampp\htdocs\edstock\src\Controller\UnitsController.php, line 78
+Cake\Controller\Controller::invokeAction() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\Controller.php, line 547
+Cake\Controller\ControllerFactory::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory::invoke() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 320
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 77
+Cake\Http\Middleware\BodyParserMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Http\Runner::run() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 58
+Cake\Http\Server::run() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Server.php, line 90
+[main] C:\xampp\htdocs\edstock\webroot\index.php, line 40
+
+2023-10-21 14:55:45 notice: Undefined property: UnitsController::$Unit in C:\xampp\htdocs\edstock\src\Controller\UnitsController.php on line 78
+Request URL: /Units/edit/2
+Referer URL: http://localhost/edstock/units
+Trace:
+Cake\Controller\Controller::__get() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\Controller.php, line 329
+App\Controller\UnitsController::edit() C:\xampp\htdocs\edstock\src\Controller\UnitsController.php, line 78
+Cake\Controller\Controller::invokeAction() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\Controller.php, line 547
+Cake\Controller\ControllerFactory::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory::invoke() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 320
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 77
+Cake\Http\Middleware\BodyParserMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Http\Runner::run() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 58
+Cake\Http\Server::run() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Server.php, line 90
+[main] C:\xampp\htdocs\edstock\webroot\index.php, line 40
+
+2023-10-21 14:56:29 notice: Undefined property: UnitsController::$Unit in C:\xampp\htdocs\edstock\src\Controller\UnitsController.php on line 78
+Request URL: /Units/edit/2
+Referer URL: http://localhost/edstock/units
+Trace:
+Cake\Controller\Controller::__get() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\Controller.php, line 329
+App\Controller\UnitsController::edit() C:\xampp\htdocs\edstock\src\Controller\UnitsController.php, line 78
+Cake\Controller\Controller::invokeAction() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\Controller.php, line 547
+Cake\Controller\ControllerFactory::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory::invoke() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 320
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 77
+Cake\Http\Middleware\BodyParserMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Http\Runner::run() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 58
+Cake\Http\Server::run() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Server.php, line 90
+[main] C:\xampp\htdocs\edstock\webroot\index.php, line 40
+
+2023-10-21 14:56:33 notice: Undefined property: UnitsController::$Unit in C:\xampp\htdocs\edstock\src\Controller\UnitsController.php on line 78
+Request URL: /Units/edit/4
+Referer URL: http://localhost/edstock/units
+Trace:
+Cake\Controller\Controller::__get() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\Controller.php, line 329
+App\Controller\UnitsController::edit() C:\xampp\htdocs\edstock\src\Controller\UnitsController.php, line 78
+Cake\Controller\Controller::invokeAction() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\Controller.php, line 547
+Cake\Controller\ControllerFactory::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory::invoke() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 320
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 77
+Cake\Http\Middleware\BodyParserMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Http\Runner::run() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 58
+Cake\Http\Server::run() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Server.php, line 90
+[main] C:\xampp\htdocs\edstock\webroot\index.php, line 40
+
+2023-10-21 14:56:42 notice: Undefined property: UnitsController::$Unit in C:\xampp\htdocs\edstock\src\Controller\UnitsController.php on line 78
+Request URL: /Units/edit/2
+Referer URL: http://localhost/edstock/units
+Trace:
+Cake\Controller\Controller::__get() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\Controller.php, line 329
+App\Controller\UnitsController::edit() C:\xampp\htdocs\edstock\src\Controller\UnitsController.php, line 78
+Cake\Controller\Controller::invokeAction() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\Controller.php, line 547
+Cake\Controller\ControllerFactory::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory::invoke() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 320
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 77
+Cake\Http\Middleware\BodyParserMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Http\Runner::run() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 58
+Cake\Http\Server::run() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Server.php, line 90
+[main] C:\xampp\htdocs\edstock\webroot\index.php, line 40
+
+2023-10-21 14:56:45 notice: Undefined property: UnitsController::$Unit in C:\xampp\htdocs\edstock\src\Controller\UnitsController.php on line 78
+Request URL: /Units/edit/2
+Trace:
+Cake\Controller\Controller::__get() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\Controller.php, line 329
+App\Controller\UnitsController::edit() C:\xampp\htdocs\edstock\src\Controller\UnitsController.php, line 78
+Cake\Controller\Controller::invokeAction() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\Controller.php, line 547
+Cake\Controller\ControllerFactory::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory::invoke() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 320
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 77
+Cake\Http\Middleware\BodyParserMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Http\Runner::run() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 58
+Cake\Http\Server::run() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Server.php, line 90
+[main] C:\xampp\htdocs\edstock\webroot\index.php, line 40
+
+2023-10-21 15:01:22 notice: Creation of dynamic property PDOException::$queryString is deprecated
+Request URL: /Items/getItems?_=1697871681451
+Referer URL: http://localhost/edstock/items
+Trace:
+Cake\Database\Log\LoggingStatement::execute() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php, line 79
+Cake\Database\Connection::Cake\Database\{closure}() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Database\Connection.php, line 359
+Cake\Core\Retry\CommandRetry::run() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php, line 70
+Cake\Database\Connection::run() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Database\Connection.php, line 356
+Cake\Database\Query::execute() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Database\Query.php, line 250
+Cake\ORM\Query::_execute() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\ORM\Query.php, line 1148
+Cake\ORM\Query::_all() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php, line 288
+Cake\ORM\Query::all() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\ORM\Query.php, line 1096
+Cake\ORM\Query::toArray() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php, line 305
+App\Controller\ItemsController::getItems() C:\xampp\htdocs\edstock\src\Controller\ItemsController.php, line 32
+Cake\Controller\Controller::invokeAction() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\Controller.php, line 547
+Cake\Controller\ControllerFactory::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory::invoke() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 320
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 77
+Cake\Http\Middleware\BodyParserMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Http\Runner::run() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 58
+Cake\Http\Server::run() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Server.php, line 90
+[main] C:\xampp\htdocs\edstock\webroot\index.php, line 40
+
+2023-10-21 17:20:45 notice: Undefined property: RequestsController::$Auth in C:\xampp\htdocs\edstock\src\Controller\AppController.php on line 80
+Request URL: /requests/add
+Referer URL: http://localhost/edstock/requests/add
+Trace:
+Cake\Controller\Controller::__get() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\Controller.php, line 329
+App\Controller\AppController::beforeFilter() C:\xampp\htdocs\edstock\src\Controller\AppController.php, line 80
+Cake\Event\EventManager::_callListener() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Event\EventManager.php, line 309
+Cake\Event\EventManager::dispatch() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Event\EventManager.php, line 286
+Cake\Controller\Controller::dispatchEvent() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Event\EventDispatcherTrait.php, line 92
+Cake\Controller\Controller::startupProcess() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\Controller.php, line 644
+Cake\Controller\ControllerFactory::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 129
+Cake\Controller\ControllerFactory::invoke() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 320
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 77
+Cake\Http\Middleware\BodyParserMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Http\Runner::run() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 58
+Cake\Http\Server::run() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Server.php, line 90
+[main] C:\xampp\htdocs\edstock\webroot\index.php, line 40
+
+2023-10-21 18:53:49 notice: Undefined property: RequestsController::$Items in C:\xampp\htdocs\edstock\src\Controller\RequestsController.php on line 23
+Request URL: /requests
+Trace:
+Cake\Controller\Controller::__get() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\Controller.php, line 329
+App\Controller\RequestsController::index() C:\xampp\htdocs\edstock\src\Controller\RequestsController.php, line 23
+Cake\Controller\Controller::invokeAction() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\Controller.php, line 547
+Cake\Controller\ControllerFactory::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory::invoke() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 320
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 77
+Cake\Http\Middleware\BodyParserMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Http\Runner::run() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 58
+Cake\Http\Server::run() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Server.php, line 90
+[main] C:\xampp\htdocs\edstock\webroot\index.php, line 40
+
+2023-10-22 02:12:19 notice: Undefined property: UsersController::$Auth in C:\xampp\htdocs\edstock\src\Controller\UsersController.php on line 16
+Request URL: /users
+Referer URL: http://localhost/edstock/requests
+Trace:
+Cake\Controller\Controller::__get() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\Controller.php, line 329
+App\Controller\UsersController::beforeFilter() C:\xampp\htdocs\edstock\src\Controller\UsersController.php, line 16
+Cake\Event\EventManager::_callListener() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Event\EventManager.php, line 309
+Cake\Event\EventManager::dispatch() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Event\EventManager.php, line 286
+Cake\Controller\Controller::dispatchEvent() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Event\EventDispatcherTrait.php, line 92
+Cake\Controller\Controller::startupProcess() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\Controller.php, line 644
+Cake\Controller\ControllerFactory::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 129
+Cake\Controller\ControllerFactory::invoke() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 320
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 77
+Cake\Http\Middleware\BodyParserMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Http\Runner::run() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 58
+Cake\Http\Server::run() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Server.php, line 90
+[main] C:\xampp\htdocs\edstock\webroot\index.php, line 40
+
+2023-10-22 11:33:56 notice: Creation of dynamic property PDOException::$queryString is deprecated
+Request URL: /Inventories/getInventories?_=1697945631663
+Referer URL: http://192.168.2.24/edstock/inventories
+Client IP: 192.168.2.2
+Trace:
+Cake\Database\Log\LoggingStatement::execute() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php, line 79
+Cake\Database\Connection::Cake\Database\{closure}() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Database\Connection.php, line 359
+Cake\Core\Retry\CommandRetry::run() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php, line 70
+Cake\Database\Connection::run() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Database\Connection.php, line 356
+Cake\Database\Query::execute() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Database\Query.php, line 250
+Cake\ORM\Query::_execute() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\ORM\Query.php, line 1148
+Cake\ORM\Query::_all() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php, line 288
+Cake\ORM\Query::all() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\ORM\Query.php, line 1096
+Cake\ORM\Query::toArray() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php, line 305
+App\Controller\InventoriesController::getInventories() C:\xampp\htdocs\edstock\src\Controller\InventoriesController.php, line 32
+Cake\Controller\Controller::invokeAction() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\Controller.php, line 547
+Cake\Controller\ControllerFactory::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory::invoke() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 320
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 77
+Cake\Http\Middleware\BodyParserMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Http\Runner::run() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 58
+Cake\Http\Server::run() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Server.php, line 90
+[main] C:\xampp\htdocs\edstock\webroot\index.php, line 40
+
+2023-10-22 14:15:16 notice: Creation of dynamic property PDOException::$queryString is deprecated
+Request URL: /Inventories/getInventories?_=1697955312362
+Referer URL: http://192.168.2.24/edstock/inventories
+Client IP: 192.168.2.2
+Trace:
+Cake\Database\Log\LoggingStatement::execute() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php, line 79
+Cake\Database\Connection::Cake\Database\{closure}() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Database\Connection.php, line 359
+Cake\Core\Retry\CommandRetry::run() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php, line 70
+Cake\Database\Connection::run() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Database\Connection.php, line 356
+Cake\Database\Query::execute() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Database\Query.php, line 250
+Cake\ORM\Query::_execute() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\ORM\Query.php, line 1148
+Cake\ORM\Query::_all() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php, line 288
+Cake\ORM\Query::all() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\ORM\Query.php, line 1096
+Cake\ORM\Query::toArray() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php, line 305
+App\Controller\InventoriesController::getInventories() C:\xampp\htdocs\edstock\src\Controller\InventoriesController.php, line 32
+Cake\Controller\Controller::invokeAction() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\Controller.php, line 547
+Cake\Controller\ControllerFactory::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory::invoke() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 320
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 77
+Cake\Http\Middleware\BodyParserMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Http\Runner::run() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 58
+Cake\Http\Server::run() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Server.php, line 90
+[main] C:\xampp\htdocs\edstock\webroot\index.php, line 40
+
+2023-10-22 14:46:26 notice: Creation of dynamic property PDOException::$queryString is deprecated
+Request URL: /Inventories/getInventories?_=1697957181897
+Referer URL: http://192.168.2.24/edstock/inventories
+Client IP: 192.168.2.2
+Trace:
+Cake\Database\Log\LoggingStatement::execute() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php, line 79
+Cake\Database\Connection::Cake\Database\{closure}() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Database\Connection.php, line 359
+Cake\Core\Retry\CommandRetry::run() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php, line 70
+Cake\Database\Connection::run() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Database\Connection.php, line 356
+Cake\Database\Query::execute() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Database\Query.php, line 250
+Cake\ORM\Query::_execute() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\ORM\Query.php, line 1148
+Cake\ORM\Query::_all() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php, line 288
+Cake\ORM\Query::all() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\ORM\Query.php, line 1096
+Cake\ORM\Query::toArray() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php, line 305
+App\Controller\InventoriesController::getInventories() C:\xampp\htdocs\edstock\src\Controller\InventoriesController.php, line 32
+Cake\Controller\Controller::invokeAction() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\Controller.php, line 547
+Cake\Controller\ControllerFactory::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory::invoke() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 320
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 77
+Cake\Http\Middleware\BodyParserMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Http\Runner::run() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 58
+Cake\Http\Server::run() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Server.php, line 90
+[main] C:\xampp\htdocs\edstock\webroot\index.php, line 40
+
+2023-10-22 14:46:30 notice: Creation of dynamic property PDOException::$queryString is deprecated
+Request URL: /Inventories/getInventories?_=1697957185654
+Referer URL: http://192.168.2.24/edstock/inventories
+Client IP: 192.168.2.2
+Trace:
+Cake\Database\Log\LoggingStatement::execute() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php, line 79
+Cake\Database\Connection::Cake\Database\{closure}() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Database\Connection.php, line 359
+Cake\Core\Retry\CommandRetry::run() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php, line 70
+Cake\Database\Connection::run() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Database\Connection.php, line 356
+Cake\Database\Query::execute() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Database\Query.php, line 250
+Cake\ORM\Query::_execute() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\ORM\Query.php, line 1148
+Cake\ORM\Query::_all() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php, line 288
+Cake\ORM\Query::all() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\ORM\Query.php, line 1096
+Cake\ORM\Query::toArray() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php, line 305
+App\Controller\InventoriesController::getInventories() C:\xampp\htdocs\edstock\src\Controller\InventoriesController.php, line 32
+Cake\Controller\Controller::invokeAction() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\Controller.php, line 547
+Cake\Controller\ControllerFactory::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory::invoke() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 320
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 77
+Cake\Http\Middleware\BodyParserMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Http\Runner::run() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 58
+Cake\Http\Server::run() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Server.php, line 90
+[main] C:\xampp\htdocs\edstock\webroot\index.php, line 40
+
+2023-10-22 21:00:37 notice: Creation of dynamic property PDOException::$queryString is deprecated
+Request URL: /Inventories/getInventories?_=1697979636800
+Referer URL: http://localhost/edstock/inventories
+Trace:
+Cake\Database\Log\LoggingStatement::execute() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php, line 79
+Cake\Database\Connection::Cake\Database\{closure}() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Database\Connection.php, line 359
+Cake\Core\Retry\CommandRetry::run() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php, line 70
+Cake\Database\Connection::run() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Database\Connection.php, line 356
+Cake\Database\Query::execute() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Database\Query.php, line 250
+Cake\ORM\Query::_execute() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\ORM\Query.php, line 1148
+Cake\ORM\Query::_all() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php, line 288
+Cake\ORM\Query::all() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\ORM\Query.php, line 1096
+Cake\ORM\Query::toArray() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php, line 305
+App\Controller\InventoriesController::getInventories() C:\xampp\htdocs\edstock\src\Controller\InventoriesController.php, line 32
+Cake\Controller\Controller::invokeAction() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\Controller.php, line 547
+Cake\Controller\ControllerFactory::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory::invoke() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 320
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 77
+Cake\Http\Middleware\BodyParserMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Http\Runner::run() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 58
+Cake\Http\Server::run() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Server.php, line 90
+[main] C:\xampp\htdocs\edstock\webroot\index.php, line 40
+
+2023-11-01 11:12:09 notice: Creation of dynamic property PDOException::$queryString is deprecated
+Request URL: /Inventories/getInventories?_=1698808328871
+Referer URL: http://localhost/edstock/inventories
+Trace:
+Cake\Database\Log\LoggingStatement::execute() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php, line 79
+Cake\Database\Connection::Cake\Database\{closure}() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Database\Connection.php, line 359
+Cake\Core\Retry\CommandRetry::run() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php, line 70
+Cake\Database\Connection::run() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Database\Connection.php, line 356
+Cake\Database\Query::execute() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Database\Query.php, line 250
+Cake\ORM\Query::_execute() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\ORM\Query.php, line 1148
+Cake\ORM\Query::_all() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php, line 288
+Cake\ORM\Query::all() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\ORM\Query.php, line 1096
+Cake\ORM\Query::toArray() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php, line 305
+App\Controller\InventoriesController::getInventories() C:\xampp\htdocs\edstock\src\Controller\InventoriesController.php, line 32
+Cake\Controller\Controller::invokeAction() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\Controller.php, line 547
+Cake\Controller\ControllerFactory::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory::invoke() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 320
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 77
+Cake\Http\Middleware\BodyParserMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Http\Runner::run() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 58
+Cake\Http\Server::run() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Server.php, line 90
+[main] C:\xampp\htdocs\edstock\webroot\index.php, line 40
+
+2023-11-03 13:15:47 notice: Creation of dynamic property PDOException::$queryString is deprecated
+Request URL: /Inventories/getInventories?_=1698988545296
+Referer URL: http://192.168.0.161/edstock/inventories
+Client IP: 192.168.0.143
+Trace:
+Cake\Database\Log\LoggingStatement::execute() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php, line 79
+Cake\Database\Connection::Cake\Database\{closure}() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Database\Connection.php, line 359
+Cake\Core\Retry\CommandRetry::run() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php, line 70
+Cake\Database\Connection::run() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Database\Connection.php, line 356
+Cake\Database\Query::execute() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Database\Query.php, line 250
+Cake\ORM\Query::_execute() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\ORM\Query.php, line 1148
+Cake\ORM\Query::_all() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php, line 288
+Cake\ORM\Query::all() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\ORM\Query.php, line 1096
+Cake\ORM\Query::toArray() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php, line 305
+App\Controller\InventoriesController::getInventories() C:\xampp\htdocs\edstock\src\Controller\InventoriesController.php, line 32
+Cake\Controller\Controller::invokeAction() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\Controller.php, line 547
+Cake\Controller\ControllerFactory::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory::invoke() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 320
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 77
+Cake\Http\Middleware\BodyParserMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Http\Runner::run() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 58
+Cake\Http\Server::run() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Server.php, line 90
+[main] C:\xampp\htdocs\edstock\webroot\index.php, line 40
+
+2023-11-03 13:17:48 notice: Creation of dynamic property PDOException::$queryString is deprecated
+Request URL: /Inventories/getInventories?_=1698988666873
+Referer URL: http://192.168.0.161/edstock/inventories
+Client IP: 192.168.0.143
+Trace:
+Cake\Database\Log\LoggingStatement::execute() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php, line 79
+Cake\Database\Connection::Cake\Database\{closure}() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Database\Connection.php, line 359
+Cake\Core\Retry\CommandRetry::run() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php, line 70
+Cake\Database\Connection::run() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Database\Connection.php, line 356
+Cake\Database\Query::execute() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Database\Query.php, line 250
+Cake\ORM\Query::_execute() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\ORM\Query.php, line 1148
+Cake\ORM\Query::_all() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php, line 288
+Cake\ORM\Query::all() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\ORM\Query.php, line 1096
+Cake\ORM\Query::toArray() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php, line 305
+App\Controller\InventoriesController::getInventories() C:\xampp\htdocs\edstock\src\Controller\InventoriesController.php, line 32
+Cake\Controller\Controller::invokeAction() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\Controller.php, line 547
+Cake\Controller\ControllerFactory::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory::invoke() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 320
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 77
+Cake\Http\Middleware\BodyParserMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Http\Runner::run() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 58
+Cake\Http\Server::run() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Server.php, line 90
+[main] C:\xampp\htdocs\edstock\webroot\index.php, line 40
+
+2023-11-03 13:56:57 notice: Creation of dynamic property PDOException::$queryString is deprecated
+Request URL: /Inventories/getInventories?_=1698991015059
+Referer URL: http://192.168.0.161/edstock/inventories
+Client IP: 192.168.0.143
+Trace:
+Cake\Database\Log\LoggingStatement::execute() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php, line 79
+Cake\Database\Connection::Cake\Database\{closure}() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Database\Connection.php, line 359
+Cake\Core\Retry\CommandRetry::run() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php, line 70
+Cake\Database\Connection::run() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Database\Connection.php, line 356
+Cake\Database\Query::execute() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Database\Query.php, line 250
+Cake\ORM\Query::_execute() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\ORM\Query.php, line 1148
+Cake\ORM\Query::_all() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php, line 288
+Cake\ORM\Query::all() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\ORM\Query.php, line 1096
+Cake\ORM\Query::toArray() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php, line 305
+App\Controller\InventoriesController::getInventories() C:\xampp\htdocs\edstock\src\Controller\InventoriesController.php, line 32
+Cake\Controller\Controller::invokeAction() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\Controller.php, line 547
+Cake\Controller\ControllerFactory::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory::invoke() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 320
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 77
+Cake\Http\Middleware\BodyParserMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Http\Runner::run() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 58
+Cake\Http\Server::run() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Server.php, line 90
+[main] C:\xampp\htdocs\edstock\webroot\index.php, line 40
+
+2023-11-03 13:57:03 notice: Creation of dynamic property PDOException::$queryString is deprecated
+Request URL: /Inventories/getInventories?_=1698991022276
+Referer URL: http://192.168.0.161/edstock/inventories
+Client IP: 192.168.0.143
+Trace:
+Cake\Database\Log\LoggingStatement::execute() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php, line 79
+Cake\Database\Connection::Cake\Database\{closure}() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Database\Connection.php, line 359
+Cake\Core\Retry\CommandRetry::run() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php, line 70
+Cake\Database\Connection::run() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Database\Connection.php, line 356
+Cake\Database\Query::execute() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Database\Query.php, line 250
+Cake\ORM\Query::_execute() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\ORM\Query.php, line 1148
+Cake\ORM\Query::_all() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php, line 288
+Cake\ORM\Query::all() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\ORM\Query.php, line 1096
+Cake\ORM\Query::toArray() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php, line 305
+App\Controller\InventoriesController::getInventories() C:\xampp\htdocs\edstock\src\Controller\InventoriesController.php, line 32
+Cake\Controller\Controller::invokeAction() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\Controller.php, line 547
+Cake\Controller\ControllerFactory::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory::invoke() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 320
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 77
+Cake\Http\Middleware\BodyParserMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Http\Runner::run() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 58
+Cake\Http\Server::run() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Server.php, line 90
+[main] C:\xampp\htdocs\edstock\webroot\index.php, line 40
+
+2023-11-07 19:36:17 notice: Undefined property: OrdersController::$Requests in C:\xampp\htdocs\edstock\src\Controller\OrdersController.php on line 21
+Request URL: /orders
+Referer URL: http://localhost/edstock/orders/add
+Trace:
+Cake\Controller\Controller::__get() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\Controller.php, line 329
+App\Controller\OrdersController::index() C:\xampp\htdocs\edstock\src\Controller\OrdersController.php, line 21
+Cake\Controller\Controller::invokeAction() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\Controller.php, line 547
+Cake\Controller\ControllerFactory::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory::invoke() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 320
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 77
+Cake\Http\Middleware\BodyParserMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Http\Runner::run() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 58
+Cake\Http\Server::run() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Server.php, line 90
+[main] C:\xampp\htdocs\edstock\webroot\index.php, line 40
+
+2023-11-07 19:36:31 notice: Undefined property: OrdersController::$Requests in C:\xampp\htdocs\edstock\src\Controller\OrdersController.php on line 21
+Request URL: /orders
+Referer URL: http://localhost/edstock/orders/add
+Trace:
+Cake\Controller\Controller::__get() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\Controller.php, line 329
+App\Controller\OrdersController::index() C:\xampp\htdocs\edstock\src\Controller\OrdersController.php, line 21
+Cake\Controller\Controller::invokeAction() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\Controller.php, line 547
+Cake\Controller\ControllerFactory::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory::invoke() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 320
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 77
+Cake\Http\Middleware\BodyParserMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Http\Runner::run() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 58
+Cake\Http\Server::run() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Server.php, line 90
+[main] C:\xampp\htdocs\edstock\webroot\index.php, line 40
+
+2023-11-07 19:36:45 notice: Undefined property: OrdersController::$Requests in C:\xampp\htdocs\edstock\src\Controller\OrdersController.php on line 21
+Request URL: /orders
+Referer URL: http://localhost/edstock/orders/add
+Trace:
+Cake\Controller\Controller::__get() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\Controller.php, line 329
+App\Controller\OrdersController::index() C:\xampp\htdocs\edstock\src\Controller\OrdersController.php, line 21
+Cake\Controller\Controller::invokeAction() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\Controller.php, line 547
+Cake\Controller\ControllerFactory::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory::invoke() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 320
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 77
+Cake\Http\Middleware\BodyParserMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Http\Runner::run() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 58
+Cake\Http\Server::run() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Server.php, line 90
+[main] C:\xampp\htdocs\edstock\webroot\index.php, line 40
+
+2023-11-07 19:44:09 notice: Undefined property: OrdersController::$Requests in C:\xampp\htdocs\edstock\src\Controller\OrdersController.php on line 112
+Request URL: /orders/edit/11
+Referer URL: http://localhost/edstock/orders
+Trace:
+Cake\Controller\Controller::__get() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\Controller.php, line 329
+App\Controller\OrdersController::edit() C:\xampp\htdocs\edstock\src\Controller\OrdersController.php, line 112
+Cake\Controller\Controller::invokeAction() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\Controller.php, line 547
+Cake\Controller\ControllerFactory::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory::invoke() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 320
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 77
+Cake\Http\Middleware\BodyParserMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Http\Runner::run() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 58
+Cake\Http\Server::run() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Server.php, line 90
+[main] C:\xampp\htdocs\edstock\webroot\index.php, line 40
+
+2023-11-07 20:12:58 notice: Creation of dynamic property PDOException::$queryString is deprecated
+Request URL: /Inventories/getInventories?_=1699359176354
+Referer URL: http://192.168.2.24/edstock/inventories
+Client IP: 192.168.2.2
+Trace:
+Cake\Database\Log\LoggingStatement::execute() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php, line 79
+Cake\Database\Connection::Cake\Database\{closure}() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Database\Connection.php, line 359
+Cake\Core\Retry\CommandRetry::run() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php, line 70
+Cake\Database\Connection::run() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Database\Connection.php, line 356
+Cake\Database\Query::execute() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Database\Query.php, line 250
+Cake\ORM\Query::_execute() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\ORM\Query.php, line 1148
+Cake\ORM\Query::_all() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php, line 288
+Cake\ORM\Query::all() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\ORM\Query.php, line 1096
+Cake\ORM\Query::toArray() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php, line 305
+App\Controller\InventoriesController::getInventories() C:\xampp\htdocs\edstock\src\Controller\InventoriesController.php, line 32
+Cake\Controller\Controller::invokeAction() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\Controller.php, line 547
+Cake\Controller\ControllerFactory::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory::invoke() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 320
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 77
+Cake\Http\Middleware\BodyParserMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Http\Runner::run() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 58
+Cake\Http\Server::run() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Server.php, line 90
+[main] C:\xampp\htdocs\edstock\webroot\index.php, line 40
+
+2023-11-07 20:46:58 notice: Undefined property: OrdersController::$Requests in C:\xampp\htdocs\edstock\src\Controller\OrdersController.php on line 30
+Request URL: /Orders/getOrders?_=1699361217781
+Referer URL: http://localhost/edstock/orders
+Trace:
+Cake\Controller\Controller::__get() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\Controller.php, line 329
+App\Controller\OrdersController::getOrders() C:\xampp\htdocs\edstock\src\Controller\OrdersController.php, line 30
+Cake\Controller\Controller::invokeAction() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\Controller.php, line 547
+Cake\Controller\ControllerFactory::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory::invoke() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 320
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 77
+Cake\Http\Middleware\BodyParserMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Http\Runner::run() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 58
+Cake\Http\Server::run() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Server.php, line 90
+[main] C:\xampp\htdocs\edstock\webroot\index.php, line 40
+
+2023-11-07 22:17:27 notice: Undefined property: OrdersController::$Requests in C:\xampp\htdocs\edstock\src\Controller\OrdersController.php on line 21
+Request URL: /orders
+Referer URL: http://localhost/edstock/requests
+Trace:
+Cake\Controller\Controller::__get() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\Controller.php, line 329
+App\Controller\OrdersController::index() C:\xampp\htdocs\edstock\src\Controller\OrdersController.php, line 21
+Cake\Controller\Controller::invokeAction() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\Controller.php, line 547
+Cake\Controller\ControllerFactory::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory::invoke() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 320
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 77
+Cake\Http\Middleware\BodyParserMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() C:\xampp\htdocs\edstock\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Http\Runner::run() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Runner.php, line 58
+Cake\Http\Server::run() C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Http\Server.php, line 90
+[main] C:\xampp\htdocs\edstock\webroot\index.php, line 40
+

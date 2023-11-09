@@ -1,0 +1,41 @@
+2023-09-10 13:11:49 warning: Association property name "role" clashes with field of same name of table "users". You should explicitly specify the "propertyName" option.
+Trace:
+Cake\ORM\Association::getProperty() D:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\ORM\Association.php, line 605
+Bake\Command\ModelCommand::getEntityPropertySchema() D:\xampp\htdocs\edstock\vendor\cakephp\bake\src\Command\ModelCommand.php, line 709
+Bake\Command\ModelCommand::getTableContext() D:\xampp\htdocs\edstock\vendor\cakephp\bake\src\Command\ModelCommand.php, line 163
+Bake\Command\ModelCommand::bake() D:\xampp\htdocs\edstock\vendor\cakephp\bake\src\Command\ModelCommand.php, line 112
+Bake\Command\ModelCommand::execute() D:\xampp\htdocs\edstock\vendor\cakephp\bake\src\Command\ModelCommand.php, line 94
+Cake\Console\BaseCommand::run() D:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Console\BaseCommand.php, line 190
+Cake\Console\CommandRunner::runCommand() D:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Console\CommandRunner.php, line 334
+Cake\Console\CommandRunner::run() D:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Console\CommandRunner.php, line 172
+[main] D:\xampp\htdocs\edstock\bin\cake.php, line 12
+
+2023-10-21 15:31:57 error: [Cake\Database\Exception\DatabaseException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'edstock_db.request_details' doesn't exist in C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Database\Schema\Collection.php on line 160
+Stack Trace:
+- C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Database\Schema\Collection.php:118
+- C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\ORM\Table.php:513
+- C:\xampp\htdocs\edstock\vendor\cakephp\bake\src\Command\ModelCommand.php:111
+- C:\xampp\htdocs\edstock\vendor\cakephp\bake\src\Command\ModelCommand.php:94
+- C:\xampp\htdocs\edstock\vendor\cakephp\bake\src\Command\AllCommand.php:115
+- C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Console\BaseCommand.php:190
+- C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Console\CommandRunner.php:334
+- C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Console\CommandRunner.php:172
+- C:\xampp\htdocs\edstock\bin\cake.php:12
+
+Caused by: [PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'edstock_db.request_details' doesn't exist in C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php on line 39
+Stack Trace:
+- C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php:39
+- C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Database\Connection.php:328
+- C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php:70
+- C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Database\Connection.php:323
+- C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Database\Schema\Collection.php:158
+- C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Database\Schema\Collection.php:118
+- C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\ORM\Table.php:513
+- C:\xampp\htdocs\edstock\vendor\cakephp\bake\src\Command\ModelCommand.php:111
+- C:\xampp\htdocs\edstock\vendor\cakephp\bake\src\Command\ModelCommand.php:94
+- C:\xampp\htdocs\edstock\vendor\cakephp\bake\src\Command\AllCommand.php:115
+- C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Console\BaseCommand.php:190
+- C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Console\CommandRunner.php:334
+- C:\xampp\htdocs\edstock\vendor\cakephp\cakephp\src\Console\CommandRunner.php:172
+- C:\xampp\htdocs\edstock\bin\cake.php:12
+
