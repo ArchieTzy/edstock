@@ -1,0 +1,45 @@
+a {
+    color: #blue;
+    text-decoration: none;
+    background-color: transparent;
+}
+table#plans-table th.font-small{
+    font-size: x-small;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+textarea{
+    resize: none;
+}
+
+textarea[readonly]{
+    background-color: #FFFFFF !important;
+}
+
+input[readonly]{
+    background-color: #FFFFFF !important;
+}
+
+table#plans-table th {
+    font-size: small;
+}
+
+.radio label{
+    display: inline-block;
+    font-size: 10px;
+    padding-right: 10px;
+}
+
+input[type=radio] {
+    border: 0px !important;
+    width: 100% !important;
+    height: 1em !important;
+}
